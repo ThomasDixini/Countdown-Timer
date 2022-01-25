@@ -1,0 +1,32 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+:root {
+    --purple: #6C63FF;
+}
+
+button {
+    cursor: pointer;
+}
+
+
+
+h1 {
+    font-size: 2rem;
+
+    color: var(--purple);
+}
+
+
+.top-image {
+    width: 100%;
+}
+
+.bottom-image {
+    
+}
