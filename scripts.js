@@ -11,7 +11,8 @@ function startTime() {
 
     const date = document.getElementById('date')
     date.innerHTML = hour + ":" + minute + ":" + second;
-    t= setTimeout('startTime()',500)
+    setTimeout(startTime,500)
+
 
 
 }
