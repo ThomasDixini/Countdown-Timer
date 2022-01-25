@@ -12,14 +12,69 @@
 
 button {
     cursor: pointer;
+    font-family: "Poppins",sans-serif;
+}
+
+
+/* TEXTOS ============================================= */
+h1 {
+    font-size: 5rem;
+    font-family: "Poppins", sans-serif;
+
+    color: var(--purple);
 }
 
 
 
-h1 {
-    font-size: 2rem;
+p {
+    color: #C8C8C8;
+}
+#phrase {
+    color: #94948f;
+    font-family: "Poppins", sans-serif;
+}
 
-    color: var(--purple);
+/* TIME ============================================= */
+
+main { 
+    width: 100%;
+    max-width: 970px;
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.descriptions, #date, #phrase, button {
+    margin-top: 1.5rem;
+}
+
+.descriptions {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+/* BUTTON ==============================================*/
+
+button {
+    border: none;
+    outline: none;
+
+    font-weight: 400;
+    font-size: 1rem;
+
+    padding: 0 3rem;
+    height: 4rem;
+
+    border-radius: 1rem;
+
+    background-color: var(--purple);
+    color: #FFF;
+
+    
 }
 
 
