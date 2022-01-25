@@ -96,3 +96,33 @@ button {
     width: 100%;
 }
 
+/* Responsive =================================================*/
+
+@media (max-width:1440px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    p {
+        font-size: 81.25%;
+    }
+
+    #date {
+        font-size: 7rem;
+    }
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 75%;
+    }
+
+    #date {
+        font-size: 5rem;
+    }
+}
+
